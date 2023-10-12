@@ -13,6 +13,7 @@
 		926B57982AD7C7E500804CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926B57962AD7C7E500804CB1 /* Main.storyboard */; };
 		926B579A2AD7C7E700804CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926B57992AD7C7E700804CB1 /* Assets.xcassets */; };
 		926B579D2AD7C7E700804CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926B579B2AD7C7E700804CB1 /* LaunchScreen.storyboard */; };
+		926B57A62AD7CFB600804CB1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 926B57A82AD7CFB600804CB1 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,16 @@
 		926B57992AD7C7E700804CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		926B579C2AD7C7E700804CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		926B579E2AD7C7E700804CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926B57A72AD7CFB600804CB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		926B57A92AD7D03100804CB1 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		926B57AA2AD7D03100804CB1 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		926B57AB2AD7D03100804CB1 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		926B57AC2AD7D05600804CB1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		926B57AD2AD7D05700804CB1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		926B57AE2AD7D05700804CB1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		926B57AF2AD7D06700804CB1 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Main.strings"; sourceTree = "<group>"; };
+		926B57B02AD7D06700804CB1 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		926B57B12AD7D06700804CB1 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +70,7 @@
 				926B57902AD7C7E500804CB1 /* AppDelegate.swift */,
 				926B57922AD7C7E500804CB1 /* SceneDelegate.swift */,
 				926B57942AD7C7E500804CB1 /* ViewController.swift */,
+				926B57A82AD7CFB600804CB1 /* Localizable.strings */,
 				926B57962AD7C7E500804CB1 /* Main.storyboard */,
 				926B57992AD7C7E700804CB1 /* Assets.xcassets */,
 				926B579B2AD7C7E700804CB1 /* LaunchScreen.storyboard */,
@@ -109,6 +121,9 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
+				ar,
+				"zh-HK",
 			);
 			mainGroup = 926B57842AD7C7E500804CB1;
 			productRefGroup = 926B578E2AD7C7E500804CB1 /* Products */;
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				926B579D2AD7C7E700804CB1 /* LaunchScreen.storyboard in Resources */,
+				926B57A62AD7CFB600804CB1 /* Localizable.strings in Resources */,
 				926B579A2AD7C7E700804CB1 /* Assets.xcassets in Resources */,
 				926B57982AD7C7E500804CB1 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +167,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				926B57972AD7C7E500804CB1 /* Base */,
+				926B57A92AD7D03100804CB1 /* hi */,
+				926B57AC2AD7D05600804CB1 /* ar */,
+				926B57AF2AD7D06700804CB1 /* zh-HK */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,9 +178,24 @@
 			isa = PBXVariantGroup;
 			children = (
 				926B579C2AD7C7E700804CB1 /* Base */,
+				926B57AA2AD7D03100804CB1 /* hi */,
+				926B57AD2AD7D05700804CB1 /* ar */,
+				926B57B02AD7D06700804CB1 /* zh-HK */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
+		};
+		926B57A82AD7CFB600804CB1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926B57A72AD7CFB600804CB1 /* en */,
+				926B57AB2AD7D03100804CB1 /* hi */,
+				926B57AE2AD7D05700804CB1 /* ar */,
+				926B57B12AD7D06700804CB1 /* zh-HK */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 /* End PBXVariantGroup section */
 
@@ -170,6 +204,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -287,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DV48BW2GWL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LocalizationDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DV48BW2GWL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LocalizationDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

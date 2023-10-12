@@ -1,0 +1,27 @@
+
+/* Class = "UISegmentedControl"; 0d8-r4-vno.segmentTitles[0] = "English"; ObjectID = "0d8-r4-vno"; */
+"0d8-r4-vno.segmentTitles[0]" = "English";
+
+/* Class = "UISegmentedControl"; 0d8-r4-vno.segmentTitles[1] = "Hindi"; ObjectID = "0d8-r4-vno"; */
+"0d8-r4-vno.segmentTitles[1]" = "Hindi";
+
+/* Class = "UISegmentedControl"; 0d8-r4-vno.segmentTitles[2] = "Gujrati"; ObjectID = "0d8-r4-vno"; */
+"0d8-r4-vno.segmentTitles[2]" = "Gujrati";
+
+/* Class = "UISegmentedControl"; 0d8-r4-vno.segmentTitles[3] = "Arabic"; ObjectID = "0d8-r4-vno"; */
+"0d8-r4-vno.segmentTitles[3]" = "Arabic";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "1Ix-z2-Jd7"; */
+"1Ix-z2-Jd7.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "FName"; ObjectID = "IHl-zE-xh9"; */
+"IHl-zE-xh9.text" = "FName";
+
+/* Class = "UIButton"; configuration.title = "Enter"; ObjectID = "j1A-uj-FDq"; */
+"j1A-uj-FDq.configuration.title" = "Enter";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "j1A-uj-FDq"; */
+"j1A-uj-FDq.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "LName"; ObjectID = "o0h-g3-4Kz"; */
+"o0h-g3-4Kz.text" = "LName";
